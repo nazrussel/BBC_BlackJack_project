@@ -1,0 +1,15 @@
+
+1. Deal both Player and Dealer a starting hand of 2 random card values.
+2. Detect when Dealer or Player has a blackjack. (Ace + 10 value card).
+3. If Dealer gets blackjack, then the Player loses (even if the Player also has a blackjack).
+    If the Player gets a blackjack, then they win (unless the Dealer also has a blackjack).
+4. Calculate the Player's and Dealer's scores based on their card values.
+5. If an ace is drawn, count it as 11. But if the total goes over 21, count the ace as 1 instead.
+6. Reveal Dealer's first card to the Player.
+7. Game ends immediately when Player score goes over 21 or if the Player or Dealer gets a blackjack.
+8. Ask the Player if they want to get another card.
+9. Once the Player is done and no longer wants to draw any more cards, let the Dealer play.
+    The Dealer should keep drawing cards unless their score goes over 16.
+10. Compare Player and Dealer scores and see if it's a win, loss, or draw.
+11. Print out the player's and Dealer's final hand and their scores at the end of the game.
+12. After the game ends, ask the Player if they'd like to play again. Clear the console for a fresh start.
